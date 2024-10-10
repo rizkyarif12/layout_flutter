@@ -54,10 +54,10 @@ HASIL AKHIR PRAKTIKUM:<br>![alt text](image-8.png)
 6. Selesaikan Praktikum 5: Navigasi dan Rute tersebut. Cobalah modifikasi menggunakan plugin go_router, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!<br>
 
 main.dart:<br>
-![alt text](image-15.png)
+![alt text](image-15.png)<br>
 Item_Page.dart:<br>
-![alt text](image-16.png)
+![alt text](image-16.png)<br>
 Home_Page.dart:<br>
-![alt text](image-17.png)
+![alt text](image-17.png)<br>
 Hasil akhir:<br>
-![alt text](image-18.png)
+![alt text](image-18.png)<br>
