@@ -66,7 +66,7 @@ class HomePage extends StatelessWidget {
                           children: [
                             SizedBox(
                               width: double.infinity,
-                              height: 100,
+                              height: 150,
                               child: Hero(
                                 tag: item.name,
                                 child: Image.network(

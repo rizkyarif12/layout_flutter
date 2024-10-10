@@ -22,16 +22,18 @@ class ItemPage extends StatelessWidget {
       body: Container(
         margin: const EdgeInsets.all(8),
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
-              width: double.infinity,
-              height: 200,
-              child: Hero(
-                tag: itemArgs.name,
-                child: Image.network(
-                  itemArgs.foto,
-                  fit: BoxFit.cover,
+            Center(
+              child: SizedBox(
+                width:
+                    400, // width seharusnya ditempatkan di sini, bukan di Image.network
+                child: Hero(
+                  tag: itemArgs.name,
+                  child: Image.network(
+                    itemArgs.foto,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
             ),
